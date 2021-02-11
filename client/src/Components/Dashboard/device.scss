@@ -1,0 +1,76 @@
+.wrapper {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    height: 90vh;
+    width: auto;
+}
+
+.is-rounded-custom {
+    border-radius: 30px !important;
+}
+
+.has-shadow {
+    box-shadow: $input-shadow, -7px -7px 0px #f3f3f3 !important;
+}
+
+.message {
+    width: 20rem !important;
+}
+
+.card-has-graph {
+    width: 20rem;
+}
+
+.top {
+    width: 25rem;
+    z-index: 3;
+}
+
+.mid {
+    z-index: 2;
+}
+
+.bottom {
+    z-index: 1;
+}
+
+.top-text {
+    z-index: 4;
+}
+
+.pie-chart {
+    width: 100%;
+    height: auto;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 1000;
+}
+
+.relative {
+    position: relative;
+}
+
+.padding-top {
+    padding-left: 0vh;
+}
+
+.piechart-wrapper {
+    width: 25%;
+    height: 25%;
+}
+
+.border-r {
+    border: 1px red solid;
+}
+
+.border-g {
+    border: 1px green solid;
+}
+
+.subtitle-text {
+    text-align: center;
+}

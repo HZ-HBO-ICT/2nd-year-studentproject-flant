@@ -1,0 +1,54 @@
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "username":"user",
+    "password": "user"
+}
+
+### 
+POST http://localhost:5000/authenticate
+Content-Type: application/json
+
+{
+    "username":"kanker",
+    "password": "kanker"
+}
+
+###
+GET http://localhost:5000/test/1
+
+###
+POST http://localhost:5000/createDeviceMeasurement
+Content-Type: application/json
+
+{
+
+    "water": 500,
+    "deviceId": 1
+}
+
+
+###
+
+GET http://localhost:5000/water
+
+###
+
+
+GET http://localhost:5000/token
+
+###
+
+GET http://localhost:5000/test
+
+###
+
+PUT  http://localhost:5000/users/5
+
+Content-Type: application/json
+
+{
+    "username":"yeet",
+    "password": "yeet"
+}

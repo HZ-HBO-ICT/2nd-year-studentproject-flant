@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito";
+$white: #f0f0f0;
+$black: #666a5c;
+$primary: #98c9a3;
+$warning: #c4ddca;
+$secondary: #77bfa3;
+$danger: #ff7a59;
+
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+$control-border-width: 2px;
+$input-shadow: 7px 7px 0px #e2e2e2;
+$no-shadow: none;
+
+.divider {
+    width: 10rem;
+    height: 1rem;
+    background: #98c9a3;
+    margin: 0 2rem 2rem 0;
+}
+
+.branding-button {
+    font-size: 1.8rem !important;
+    font-weight: 800 !important;
+
+    margin-top: 3rem;
+    width: 14rem;
+    height: 4rem !important;
+}
+
+.button {
+    box-shadow: $input-shadow !important;
+    filter: none !important;
+}
+
+.button:hover {
+    box-shadow: 10px 10px 0px #e2e2e2 !important;
+}
+
+.card {
+    box-shadow: $input-shadow !important;
+    filter: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: $white;
+}
+
+input {
+    box-shadow: $no-shadow !important;
+}
+
+@import "./src/Components//Navbar/Navbar.scss";
+@import "./src/Components/Hero/hero.scss";
+@import "./src/Components/Explanation/explanation.scss";
+@import "./src/Components/Plans/plans.scss";
+@import "./src/Components/Dashboard/device.scss";
+@import "./src/loading.scss";
+@import "./src/Components/Dashboard/dashboard.scss";
+@import "./src/Components/Dashboard/BarGraph.scss";
+
+// Import only what you need from Bulma
+@import "../client/node_modules/bulma/bulma.sass";

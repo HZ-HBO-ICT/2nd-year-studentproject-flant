@@ -1,0 +1,18 @@
+$graphColor: #e2e2e2;
+
+//bottom and top line color
+.rv-xy-plot__axis__line {
+  stroke: $graphColor !important;
+}
+
+.rv-xy-plot__grid-lines__line {
+  stroke: $graphColor !important;
+}
+
+.rv-xy-plot__axis__tick__line {
+  stroke: $graphColor !important;
+}
+
+.rv-xy-plot__axis__tick__text {
+  color: $black;
+}

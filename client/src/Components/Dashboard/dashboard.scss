@@ -1,0 +1,64 @@
+$white: #f0f0f0;
+$black: #666a5c;
+$primary: #98c9a3;
+$warning: #c4ddca;
+$secondary: #77bfa3;
+$danger: #ff7a59;
+
+$family-sans-serif: "Nunito";
+
+hr {
+  border: 1px solid $black !important;
+  background-color: $black !important;
+  opacity: 10%;
+}
+
+.is-circular {
+  border-radius: 50%;
+  width: 100px;
+  height: width;
+}
+
+.is-pricing {
+  font-family: "Sacramento";
+}
+
+.navbar-divider {
+  border: $black;
+}
+
+.graphSvg {
+  position: absolute;
+  transform: scale(1);
+}
+
+.relative {
+  position: relative;
+}
+
+.has-padding-top-0 {
+  padding-top: 0 !important;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circleText {
+  z-index: 3;
+}
+
+.circleTop {
+  z-index: 2;
+}
+
+.is-size-xl {
+  font-size: 5rem !important;
+}
+
+.is-size-m {
+  font-size: 1.2rem !important;
+}

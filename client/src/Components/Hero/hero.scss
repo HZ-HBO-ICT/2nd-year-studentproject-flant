@@ -1,0 +1,43 @@
+.hero-logo {
+    line-height: 8rem;
+    font-size: 7rem;
+    font-weight: 800;
+    height: auto;
+    width: auto;
+}
+
+.divider {
+    width: 10rem;
+    height: 1rem;
+    background: #98c9a3;
+    margin: 0 2rem 2rem 0;
+}
+
+.branding-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 40, 92px;
+}
+
+.branding-image {
+    right: -2.2rem;
+    width: 34rem;
+    height: auto;
+    margin-right: 0;
+}
+
+.branding-hero-body {
+    padding: 0 !important;
+}
+
+.branding-button {
+    font-size: 1.8rem !important;
+    font-weight: 800 !important;
+    
+    margin-top: 3rem;
+    width: 14rem;
+    height: 4.5rem !important;
+
+    filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.25));
+}
